@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
-        if (count == 12) //this number should be equal to the number of yellow pickups on the first playfield
+        if (score == 12) //this number should be equal to the number of yellow pickups on the first playfield
         {
             transform.position = new Vector3(23.5f, transform.position.y, 8.0f);
         }
